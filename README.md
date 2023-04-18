@@ -12,10 +12,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Jij
 
 ### Ontwerper:
-Sanne 't Hooft (vervangen door jouw naam)
+Fenisya Pontoan
 
 #### Je startniveau:
-Mijn startniveau is: hier je startniveau (kies uit zwart, rood óf blauw)
+Mijn startniveau is: blauw
 
 
 
@@ -31,10 +31,9 @@ Mijn startniveau is: hier je startniveau (kies uit zwart, rood óf blauw)
 
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - code schrijven
+  - code begrijpen
+  
  
 </details>
 
@@ -47,18 +46,32 @@ Mijn startniveau is: hier je startniveau (kies uit zwart, rood óf blauw)
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
 
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  
+  - Simpel, plat 
+  
+  Tijdens de eerste les was ik vooral bezig met het kiezen van een character. Ik koos Pikachu en ging daar vooral research naar doen en bedenken of ik
+  hier wel een concept uit kon halen. Mijn eerste idee was daarom nog niet uitgewerkt omdat ik nog zat te twijfelen. 
+  
+  Mijn eerste idee was om de evoluties van Pikachu weer te geven in Pokemon kaarten. Om dit interactief te maken, zou ik dit bijvoorbeeld in een 
+  carroussel kunnen weergeven. Daarbij wilde ik dan animaties als bijvoorbeeld "vuur" toevoegen, omdat Pikachu een vuur type is. Verder had ik het idee nog niet uitgedacht. Als feedback kreeg ik dat ik moet oppassen dat het niet te simpel zal worden. Ook gaf ze mij het idee om de kaarten uit het pakje te laten komen, om het iets speelser te maken. 
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Ik ben daarna begonnen met schetsen. Ik vond het idee met de kaarten uit het pakje heel goed. Om mijn eigen draai eraan te geven heb ik geschetst dat onderin het scherm de kaarten al zichtbaar zijn. Vervolgens kan je een van deze kaarten kiezen, waarna de gekozen kaart naar boven schuift. Op elk van deze kaarten staat een evolutie van Pikachu. Pikachu op deze kaart zal dan ook nog een animatie (emotie, grootte etc.) uitbeelden. 
+  
+  Wat Pikachu uniek maakt is dat hij niet wilde evolueren in Raichu. Om dit duidelijk te maken kan ik Pikachu boos uitbeelden zodra je op het kaartje klikt van Raichu. 
 
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  
+  
+  
+  Na het uitwerken van concept 1, ben ik nog even verder gaan schetsen. Mijn inspiratie kwam toen van het Nintendo spel Pokemon. Ik wil hier een landschap laten zien met bomen en struiken. Achter elke struik zit er een Pikachu uit een andere tijd verstopt. Als je op een struik klikt, schuift de struik open en komt de Pikachu tevoorschijn. Onderin het scherm is er een tekstbalk, waarin informatie over de Pikachu verteld wordt. Deze tekst wordt op de typische manier afgebeeld, net zoals in het spel: de letters komen 1 voor 1 alsof er wordt getypt. 
+  
+  Als feedback kreeg ik dat dit idee ook heel leuk is en minder kaal dan concept 1. Het enige wat concept 1 wel meer liet passen bij mijn character, zijn de emoties die worden afgebeeld in animatie. Dit zou bij concept 2 ook meer terug kunnen komen. Ook het idee van concept 1 met boze Pikachu, wanneer er voor Raichu gekozen wordt, zou in concept 2 verwerkt kunnen worden. Dit kan bijvoorbeeld door middel van tekst. 
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  
 
 
 
