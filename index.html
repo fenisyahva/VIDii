@@ -1,42 +1,50 @@
 <!doctype html>
-<html lang="nl">
-	
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="author" content="jouw naam">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<title>VIDii 2022/23 - Tijdlijn</title>
-	
-	<link href="styles/style.css" rel="stylesheet">
-	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <script defer src="js/main.js"></script>
+    <title>Pikachu</title>
 </head>
-
 <body>
-	<header>
-		<!--<h1>De titel van je tijdlijn</h1>
-		<p>Korte omschrijving van je tijdlijn</p>-->
-	</header>
+<div class="container">
+    <div class="list-inner">
+        <ul class="list-items list-items__first">
+            <li class="list-item list-item__first">
+                <img class="list-image hidden-image" src="images/bush1.png" alt="Bush-Image" data-img="pichu">
+                <img class="list-image__pichu pikachu-images" src="images/pichu.png" alt="Bush-Image">
+            </li>
+        </ul>
+        <ul class="list-items">
+            <li class="list-item">
+                <img class="list-image hidden-image" src="images/bush2.png" alt="Bush-Image" data-img="pikachu">
+                <img class="list-image__pikachu pikachu-images" src="images/pikachu.png" alt="Bush-Image">
+            </li>
+            <li class="list-item">
+                <img class="list-image hidden-image" src="images/bush3.png" alt="Bush-Image" data-img="raichu">
+                <img class="list-image__raichu pikachu-images" src="images/raichu.png" alt="Bush-Image">
+            </li>
+        </ul>
+    </div>
+    <ul class="list-item description">
+        <li class="description-list descrption-pichu">
+            <h2 class="desc-list__title desc-title__pichu"></h2>
+            <p class="desc-list__text desc-pichu"></p>
+        </li>
+        <li class="description-list descrption-pikachu">
+            <h2 class="desc-list__title desc-title__pikachu"></h2>
+            <p class="desc-list__text desc-pikachu"></p>
+        </li>
+        <li class="description-list descrption-raichu">
+            <h2 class="desc-list__title desc-title__raichu"></h2>
+            <p class="desc-list__text desc-raichu"></p>
+        </li>
+    </ul>
+</div>
 
-	<main>
-		<img class="background" src="images/field.png" alt="field">
-		<ol>
-			<li> 
-				<img class="pikachu" src="images/pikachu.png" alt="Pikachu">
-				<input class="bush1" type="image" src="images/bush1.png">
-			</li>
-			<li>
-				<img class="pichu" src="images/pichu.png" alt="Pichu">
-				<input class="bush2" type="image" src="images/bush2.png">
-			</li>
-			<li>
-				<img class="raichu" src="images/raichu.png" alt="Pichu">
-				<input class="bush3" type="image" src="images/bush3.png">
-			</li>
-		</ol>
-	</main>
-
-	<script src="scripts/script.js"></script>
 </body>
-	
 </html>
