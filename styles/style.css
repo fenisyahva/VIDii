@@ -1,88 +1,165 @@
-/*************/
-/* CSS RESET */
-/*************/
-
-/* naar een idee van Jen Simmons */
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  margin:0;
+    background-image: url("../images/backgroundImg.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 100vh;
 }
 
-button:not([disabled]) {
-  cursor:pointer;
+.container {
+    padding: 0 20px;
+    /*margin-top: 200px;*/
 }
 
-
-
-/*********************/
-/* CUSTOM PROPERTIES */
-/*********************/
-
-:root {
-  --color-headings:crimson
+.list-items {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
 }
 
-.background {
-  position: absolute;
-  z-index: -1;
+.list-items__first {
+    justify-content: center;
 }
 
-
-
-/********************/
-/* ALGEMENE STYLING */
-/********************/
-
-h1 {
-  color:var(--color-headings);
+.list-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    cursor: pointer;
 }
 
-.pikachu {
-  position: absolute;
-  z-index: 1;
-  width: 150px;
+.list-item__first {
+    padding-top: 290px;
 }
 
-.bush1 {
-  position: absolute;
-  z-index: 2;
-  width: 500px;
-  top: 40px;
+.list-image {
+    position: absolute;
+    /*top: 80%;*/
+    z-index: 1;
+    width: 500px;
+    display: block;
+    opacity: 0;
 }
 
-.pichu {
-  position: absolute;
-  z-index: 1;
-  width: 150px;
-  margin-left: 200px;
-}
-.bush2 {
-  position: absolute;
-  z-index: 2;
-  width: 500px;
-  top: 40px;
-  margin-left: 200px;
+.list-item:hover {
+    opacity: 0.8;
+    transition: opacity 0.7s ease-in;
 }
 
-.raichu {
-  position: absolute;
-  z-index: 1;
-  width: 150px;
-  margin-left: 400px;
-}
-.bush3 {
-  position: absolute;
-  z-index: 2;
-  width: 500px;
-  top: 40px;
-  margin-left: 400px;
+.pikachu-images {
+    height: 270px;
+    opacity: 0;
 }
 
-ol {
-  list-style-type:none;
-  position: relative;
+.description {
+    margin: 0 auto;
 }
 
+.description-list {
+    position: absolute;
+    opacity: 0;
+    background-color: rgba(234, 226, 226, 0.5);
+    max-width: 400px;
+    width: 100%;
+    min-height: 100px;
+    border: 6px solid #b3d4fc;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+
+.list-image.hidden-image,
+.pikachu-images.hidden-image,
+.description-list.hidden-image{
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 0.7s ease-in, transform 0.7s ease-in;
+
+}
+
+.desc-list__title,
+.desc-list__text{
+    font-size: 24px;
+    margin-top: 5px;
+}
+.desc-list__text {
+    margin-top: 10px;
+}
+
+@media (max-width: 1655px) {
+    .list-item__first {
+        padding-top: 170px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .list-image {
+        width: 400px;
+    }
+    .pikachu-images {
+        height: 216px;
+    }
+    .description {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 1170px) {
+    .list-image {
+        width: 300px;
+    }
+    .pikachu-images {
+        height: 162px;
+    }
+    .description-list {
+        padding: 5px;
+        max-width: 300px;
+        min-height: 80px;
+    }
+    .desc-list__title,
+    .desc-list__text {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .list-image {
+        width: 220px;
+    }
+    .pikachu-images {
+        height: 118px;
+    }
+}
+
+@media (max-width: 768px) {
+    .list-image {
+        width: 170px;
+    }
+    .list-item {
+        width: 300px;
+    }
+    .pikachu-images {
+        height: 91px;
+    }
+
+    .description-list {
+        padding: 5px;
+        max-width: 250px;
+        min-height: 70px;
+    }
+    .desc-list__title,
+    .desc-list__text {
+        font-size: 18px;
+        margin-top: 2px;
+    }
+}
