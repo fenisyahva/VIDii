@@ -35,6 +35,14 @@ De les begon met een feedbacksessie. De persoon die naast mij zat en ik keken na
 
 Om deze week te beginnen, kon ik de nieuwe afbeeldingen gebruiken in de code die ik al had geschreven. Dit was gelukt, maar omdat ik dit keer ook een achtergrond foto had toegevoegd, kreeg ik de andere afbeeldingen van Pikachu en de struiken opeens niet meer op de juiste positie. Ze stonden namelijk onderaan de pagina, omdat mijn achtergrond apart stond van de rest. Ik wist niet zo goed hoe ik dit moest oplossen, dus vroeg ik of een klasgenoot mij hier misschien bij kon helpen. Hij kon mij met behulp van zijn eigen code mij hier gelukkig bij helpen. 
 
+## Dag 7 
+Vandaag was ik niet in de les. Ik wilde in mijn eigen tijd verder werken aan mijn ontwerp en code. Een vriendin van mij is een stuk beter in coderen dan ik. Ik heb haar daarom om hulp gevraagd om mij verder te helpen. Ze heeft mij toen geholpen met de animaties toevoegen aan de struiken en de Pokémons. Ze heeft mij uitgelegd hoe het werkt, maar ik vond het nog wel heel moeilijk om zelf te schrijven. Ook heeft ze mij geholpen bij javascript schrijven, want dit was voor mij een nog ergere ramp. 
+
+Het is uiteindelijk met haar hulp gelukt om de struiken te laten verdwijnen wanneer je erop klikt, zodat er een Pokémon tevoorschijn komt. Daarnaast wilde ik ook dat het bedienbaar zou worden door middel van pijltjes op het toetsenbord. Dat is ook gelukt met haar hulp. 
+
+## Dag 8 
+Vandaag is de laatste les. Ik begon de dag met mijn werk op Github zetten, zodat ik een derde feedbackronde kon doen. Ik deed deze samen met Luuk. We bekeken elkaars werk en vulden het beoordelingsformulier voor elkaar in. Ons werk was nog niet af, maar we hadden wel al de basis die we aan elkaar konden laten zien. We hadden dit al aan elkaar aangegeven en ook wat we nog precies wilden toevoegen, zodat we hier rekening mee konden houden in onze beoordeling. Mijn beoordelingsformulier is er over het algemeen wel goed uitgekomen, omdat ik de basis al heb. Er waren nog wel een paar punten waar ik nog rekening mee moest houden, bijvoorbeeld het gebruik van comments in mijn code en een bronnenlijst toevoegen. Het was daarom goed dat ik dit nog even heb mogen bespreken met Luuk, zodat ik wist waar ik nog verder aan kan werken. 
+
 
 
 ## Jij
@@ -125,7 +133,7 @@ Als feedback kreeg ik dat dit idee ook heel leuk is en minder kaal dan concept 1
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+ De pagina is nog niet responsive
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
@@ -133,7 +141,42 @@ Als feedback kreeg ik dat dit idee ook heel leuk is en minder kaal dan concept 1
 
 
   ### Bevinding 3:
-  ...
+ Interactieve elementen kunnen nog niet met het toetsenbord geselecteerd worden.
+  
+  #### oplossing:
+  
+  
+  
+  ### Bevinding 4:
+  De states van interactieve elementen passen nog niet bij het ontwerp
+  
+  #### oplossing:
+  
+  
+  ### Bevinding 5:
+  Er is nog geen commentaar opgenomen om de structuur duidelijk te maken in de CSS en om uitleg te geven
+  
+  #### oplossing:
+  
+  
+  
+  ### Bevinding 6:
+  Gebruik van relative units
+  
+  #### oplossing:
+  
+  
+  
+  ### Bevinding 7:
+  In de CSS wordt code meerdere malen geschreven (afbeeldingen stijlen)
+  
+  #### oplossing:
+  
+  
+  ### Bevinding 8:
+  Bronnen zijn nog niet opgenomen in readme en code
+  
+  #### oplossing:
 
 </details>
 
@@ -146,7 +189,7 @@ Als feedback kreeg ik dat dit idee ook heel leuk is en minder kaal dan concept 1
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
   
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Code is nog niet netjes/duidelijik geschreven: commentaar nog toevoegen
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
@@ -154,7 +197,7 @@ Als feedback kreeg ik dat dit idee ook heel leuk is en minder kaal dan concept 1
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Bronnenlijst moet nog worden toegevoegd
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
@@ -162,7 +205,13 @@ Als feedback kreeg ik dat dit idee ook heel leuk is en minder kaal dan concept 1
 
 
   ### Bevinding 3:
-  ...
+  Code kunnen uitleggen
+  
+  #### oplossing:
+  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  
+  
+  
 
 </details>
 
