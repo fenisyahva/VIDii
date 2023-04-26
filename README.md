@@ -26,7 +26,14 @@ Ziek.
 ## Dag 5
 Vandaag ben ik begonnen met het coderen. Ik probeerde te maken wat de docent mij twee dagen geleden vertelde. Door naar de oefeningen te kijken die hij mij als tip gaf en andere websites op te zoeken, is het mij gelukt om de afbeeldingen zo te krijgen als dat ik wilde! Ook heb ik een afbeelding gevonden die ik kan gebruiken als achtergrond en struiken die ik als button kan gebruiken. 
 
-Ik wilde eerste nog verder oefenen met de code, dus heb ik eerst de oude afbeeldingen gebruikt om verder te gaan met de code. 
+Ik wilde eerst nog verder oefenen met de code, dus heb ik eerst de oude afbeeldingen gebruikt om verder te gaan met de code. Hetgeen waar ik mee zou kunnen beginnen waren de afbeeldingen op de juiste positie zetten en buttons maken van de struiken. Ik ben online gaan kijken hoe ik dat moest doen. De docent gaf al aan dat dit met 'position: absolute' zou kunnen. Via een voorbeeld uit (https://programmersportal.com/css/how-to/overlap-images.php) kon ik dit toepassen op mijn afbeeldingen. Na even puzzelen is het mij gelukt om met de code uit het voorbeeld mijn afbeeldingen juist neer te zetten.
+
+## Dag 6
+Vandaag is de tweede week begonnen. In het weekend heb ik nog kunnen werken aan de juiste illustraties die ik wilde gebruiken, samen met een kennis van mij. Hij is namelijk erg goed in digitaal illustreren en kon mij hier gelukkig bij helpen. Ik wilde namelijk afbeeldingen hebben in een specifieke stijl, van een Pokémon game. De afbeeldingen van Pichu, Pikachu en Raichu heb ik wel van het internet afgehaald. 
+
+De les begon met een feedbacksessie. De persoon die naast mij zat en ik keken naar elkaars werk en konden elkaars beoordelingsformulier invullen. Ik merkte toen dat nog achterloop, maar wel de goede kant op ga. Over de meeste punten had ik al nagedacht, alleen nog niet uitgevoerd. 
+
+Om deze week te beginnen, kon ik de nieuwe afbeeldingen gebruiken in de code die ik al had geschreven. Dit was gelukt, maar omdat ik dit keer ook een achtergrond foto had toegevoegd, kreeg ik de andere afbeeldingen van Pikachu en de struiken opeens niet meer op de juiste positie. Ze stonden namelijk onderaan de pagina, omdat mijn achtergrond apart stond van de rest. Ik wist niet zo goed hoe ik dit moest oplossen, dus vroeg ik of een klasgenoot mij hier misschien bij kon helpen. Hij kon mij met behulp van zijn eigen code mij hier gelukkig bij helpen. 
 
 
 
@@ -111,11 +118,10 @@ Als feedback kreeg ik dat dit idee ook heel leuk is en minder kaal dan concept 1
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
   
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+ Elementen zijn nog niet netjes uitgelijnd
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-
+ 
 
 
   ### Bevinding 2:
