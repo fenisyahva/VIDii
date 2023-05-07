@@ -265,8 +265,14 @@ Als feedback kreeg ik dat dit idee ook heel leuk is en minder kaal dan concept 1
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. https://programmersportal.com/css/how-to/overlap-images.php
+2. https://github.com/fenisyahva/VIDii/edit/main/index.html 
+3. https://codepen.io/shooft/live/WNJXQjv
+4. https://www.hiclipart.com/free-transparent-background-png-clipart-iyiuh 
+5. https://www.nicepng.com/maxp/u2q8e6t4w7o0a9r5/ 
+6. https://www.pngplay.com/nl/image/285064
+7. http://www.stickpng.com/img/games/pokemon/angry-pikachu-pokemon 
+8. Achtergrond + struiken: gemaakt door Ariq Althaf (met toestemming)
+9. Javascript & CSS: hulp van Faina
 
 </details>
