@@ -66,6 +66,7 @@ Mijn startniveau is: blauw
    <img src="readme-images/schets2.png" width="375px" alt="tweede versie/schets">
     <img src="readme-images/schets3.png" width="375px" alt="derde versie/schets">
 
+  Zoals ik al in mijn dagboek schreef, hield ik mij bij in het begin erg tegen met mijn ideeën. Dit kwam omdat ik niet wist hoe ik het zou moeten coderen. Toen ik dat los kon laten kwam ik met twee concepten. Het Pokémonkaart concept en het Nintendo spel concept. Het tweede concept heb ik uiteindelijk (naar aanleiding van feedback) gekozen. Uit deze feedback kwam ook dat ik bepaalde elementen uit het eerste concept kon gebruiken. Dit heb ik in de derde schets verwerkt (emoties van Pikachu). 
 
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
