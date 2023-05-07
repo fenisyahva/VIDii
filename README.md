@@ -250,7 +250,7 @@ Als feedback kreeg ik dat dit idee ook heel leuk is en minder kaal dan concept 1
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatje(s)
 
-  <img src="readme-images/resultaat4" width="375px" alt="bummer">
+  <img src="readme-images/resultaat4.png" width="375px" alt="bummer">
   
   In de screenshot hierboven is te zien hoe de tekst zich weergeeft. Ik wilde eigenlijk, net zoals in het spel, dat de tekst zich zou splitten in delen waardoor het blok verticaal niet zou groeien. Dit was mij niet gelukt. Overigens heb ik de javascript code niet zelf geschreven. Ik weet in grote lijnen wat er staat en waarvoor, maar zelf had ik te veel moeite om dit zelf te doen. 
 </details>
