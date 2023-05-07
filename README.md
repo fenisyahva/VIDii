@@ -233,13 +233,20 @@ Als feedback kreeg ik dat dit idee ook heel leuk is en minder kaal dan concept 1
   <summary>Mijn eindresultaat & persoonlijke ontwikkeling</summary>
 
   ### Je uitkomst - karakteristiek screenshot(s):
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="final ontwerp">
+  <img src="readme-images/resultaat1.png" width="375px" alt="final ontwerp">
+  <img src="readme-images/resultaat2.png" width="375px" alt="final ontwerp">
+  <img src="readme-images/resultaat3.png" width="375px" alt="final ontwerp">
+  <img src="readme-images/resultaat4.png" width="375px" alt="final ontwerp">
+  
+  Dit zijn screenshots van mijn uitkomst. De eerste twee screenshots geven een beeld van mijn concept weer. Achter elke struik verstopt een evolutie van Pikachu. Zodra er eentje verschijnt, komt er ook tekst over deze Pokémon op beeld. 
+  
+  In de laatste twee screenshots is mijn paasei te zien. Omdat Pikachu eigenlijk niet in Raichu wil evolueren, komt er een boze Pikachu tevoorschijn. Maar zodra je daar nog een keer op klikt, dan komt Raichu gewoon in beeld. Op deze manier wilde ik de verschillende evoluties van Pikachu in beeld brengen.
 
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatje(s)
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/eerstecode.png" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
