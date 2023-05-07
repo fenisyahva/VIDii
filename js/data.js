@@ -1,0 +1,1 @@
+const manis = 'Hello world!'
