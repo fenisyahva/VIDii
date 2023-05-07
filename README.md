@@ -120,10 +120,6 @@ Als feedback kreeg ik dat dit idee ook heel leuk is en minder kaal dan concept 1
   
 
 
-
-  ### Bevinding 3:
-  ...
-
 </details>
 
 
@@ -247,12 +243,16 @@ Als feedback kreeg ik dat dit idee ook heel leuk is en minder kaal dan concept 1
   Korte omschrijving met plaatje(s)
 
   <img src="readme-images/eerstecode.png" width="375px" alt="top">
+  
+  In het begin wist ik totaal niet hoe ik moest beginnen met code schrijven. Nadat ik hierover naar de docent ben geweest en hij mij heeft geholpen door te vertellen met wat ik kon beginnen, begreep ik het een stuk beter. Ik begon toen door de afbeeldingen op de juiste positie te plaatsen. Dit heeft even geduurd, maar zoals op de afbeelding hierboven te zien is lukte het mij wel. Hier was ik zelf al heel trots op en kreeg ik meer vertrouwen om zelf verder te gaan. 
 
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatje(s)
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/resultaat4" width="375px" alt="bummer">
+  
+  In de screenshot hierboven is te zien hoe de tekst zich weergeeft. Ik wilde eigenlijk, net zoals in het spel, dat de tekst zich zou splitten in delen waardoor het blok verticaal niet zou groeien. Dit was mij niet gelukt. Overigens heb ik de javascript code niet zelf geschreven. Ik weet in grote lijnen wat er staat en waarvoor, maar zelf had ik te veel moeite om dit zelf te doen. 
 </details>
 
 
