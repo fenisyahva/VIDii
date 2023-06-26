@@ -1,3 +1,11 @@
+/* custom properties voor kleuren*/
+:root {
+    --main-color: #b3d4fc;
+    --background-color: rgba(234, 226, 226, 0.5);
+    --border-color: rgba(255, 255, 255, 0.5);
+}
+
+/* * en html geschreven door Faina*/
 *,
 *::after,
 *::before,
@@ -16,8 +24,7 @@ body {
 }
 
 .container {
-    padding: 0 20px;
-    /*margin-top: 200px;*/
+    padding: 0 1.25em;
 }
 
 .list-items {
@@ -35,24 +42,27 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 500px;
+    width: 31.25em;
     cursor: pointer;
 }
 
 .list-item__first {
-    padding-top: 290px;
+    margin-top: 18.125em;
 }
 
+/* geschreven door Faina */
 .list-image {
     position: absolute;
-    /*top: 80%;*/
+    top: 0;
     z-index: -1;
-    width: 500px;
+    width: 31.25em;
     display: block;
     opacity: 0;
     animation: shake 7s infinite;
     animation-timing-function: cubic-bezier(.36,.07,.19,.97);
 }
+
+/* Animatie shake geschreven door Faina */
 @keyframes shake {
     0% {
         transform: translate(0, 0) rotate(0deg);
@@ -89,13 +99,8 @@ body {
     }
 }
 
-.list-item:hover {
-    opacity: 0.8;
-    transition: opacity 0.7s ease-in;
-}
-
 .pikachu-images {
-    height: 270px;
+    height: 16.875em;
     opacity: 0;
     animation-name: jump;
     animation-duration: 0.5s;
@@ -103,6 +108,8 @@ body {
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
+
+
 @keyframes jump {
     0% {
         transform: translateY(0);
@@ -131,33 +138,31 @@ body {
 .description-list {
     position: absolute;
     opacity: 0;
-    background-color: rgba(234, 226, 226, 0.5);
-    max-width: 400px;
+    background-color: var(--background-color);
+    max-width: 25em;
     width: 100%;
-    min-height: 100px;
-    border: 6px solid #b3d4fc;
+    min-height: 6.25em;
+    border: 6px solid var(--main-color);
     border-radius: 20px;
-    padding: 10px 10px;
+    padding: 0.625em;
     z-index: 1;
 }
 
 .first-text{
     position: absolute;
     opacity: 1;
-    background-color: rgba(234, 226, 226, 0.5);
-    max-width: 280px;
+    background-color: var(--background-color);
+    max-width: 17.5em;
     width: 100%;
-    min-height: 50px;
+    min-height: 3.125em;
     border: 6px solid #b3d4fc;
     border-radius: 20px;
-    padding: 10px 10px;
-    font-size: 17px;
-    margin-top: 5px;
+    padding: 0.625em;
+    font-size: 1.0625em;
+    margin-top: 0.3125em;
 }
 
-.list-image.hidden-image,
-.pikachu-images.hidden-image,
-.description-list.hidden-image{
+.hidden-image{
     opacity: 1;
     transform: scale(1);
     transition: opacity 0.7s ease-in, transform 0.7s ease-in;
@@ -167,81 +172,121 @@ body {
 
 .desc-list__title,
 .desc-list__text{
-    font-size: 24px;
-    margin-top: 5px;
+    font-size: 1.5em;
+    margin-top: 0.3125em;
 }
 .desc-list__text {
-    margin-top: 10px;
+    margin-top: 0.625em;
 }
 
 .list-image__raichu {
     display: none;
 }
 
-@media (max-width: 1655px) {
+.list-btn {
+    position: absolute;
+    border: 2px solid transparent;
+    height: 16.875em;
+    width: 31.25em;
+    background-color: transparent;
+    z-index: 1;
+    transition: all ease-in 0.4s;
+}
+
+/* button states */
+.list-item:hover {
+    opacity: 0.8;
+    transition: opacity 0.7s ease-in;
+}
+
+.list-btn:active{
+    transform: scale(0.95);
+    transition: all ease-in 0.4s;
+}
+
+.list-btn:focus {
+    outline: none;
+    border: 2px solid var(--border-color);
+    box-shadow: 0 0 0.625em var(--border-color);
+    border-radius: 20px;
+}
+
+
+/* media queries voor responsive design*/ 
+@media (max-width: 104em) {
     .list-item__first {
-        padding-top: 170px;
+        margin-top: 12em;
     }
 }
 
-@media (max-width: 1440px) {
+
+@media (max-width: 90em) {
+    .list-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 25em;
+        height: 13.5em;
+    }
     .list-image {
-        width: 400px;
+        width: 25em;
     }
     .pikachu-images {
-        height: 216px;
+        height: 13.5em;
+    }
+}
+
+@media (max-width: 74em) {
+    .list-btn {
+        width: 18.75em;
+        height: 10.125em;
+    }
+    .list-image {
+        width: 18.75em;
+    }
+    .pikachu-images {
+        height: 10.125em;
     }
     .description {
-        margin-top: 50px;
-    }
-}
-
-@media (max-width: 1170px) {
-    .list-image {
-        width: 300px;
-    }
-    .pikachu-images {
-        height: 162px;
+        margin-top: 3.125em;
     }
     .description-list {
-        padding: 5px;
-        max-width: 300px;
-        min-height: 80px;
+        padding: 0.3125em;
+        max-width: 18.75em;
+        min-height: 5em;
     }
     .desc-list__title,
     .desc-list__text {
-        font-size: 20px;
+        font-size: 1.25em;
     }
 }
 
-@media (max-width: 768px) {
-    .list-image {
-        width: 220px;
+@media (max-width: 48em) {
+    .list-item__first {
+        margin-top: 18em;
     }
-    .pikachu-images {
-        height: 118px;
+    .list-btn {
+        width: 10.625em;
+        height: 5.6875em;
     }
-}
-
-@media (max-width: 768px) {
     .list-image {
-        width: 170px;
+        width: 10.625em;
     }
     .list-item {
-        width: 300px;
+        width: 18.75em;
     }
     .pikachu-images {
-        height: 91px;
+        height: 5.6875em;
     }
 
     .description-list {
-        padding: 5px;
-        max-width: 250px;
-        min-height: 70px;
+        padding: 0.3125em;
+        max-width: 15.625em;
+        min-height: 4.375em;
     }
     .desc-list__title,
     .desc-list__text {
-        font-size: 18px;
-        margin-top: 2px;
+        font-size: 1.125em;
+        margin-top: 0.125em;
     }
 }
